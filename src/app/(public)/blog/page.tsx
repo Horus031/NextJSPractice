@@ -12,7 +12,7 @@ const BlogLists = async () => {
       cache: "no-cache",
     });
 
-    const myResponse = await fetch("http://localhost:3000//api/posts")
+    const myResponse = await fetch("https://next-js-practice-rho-rosy.vercel.app/api/posts")
     const myData = await myResponse.json()
 
     console.log(myData)
